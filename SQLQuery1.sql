@@ -37,3 +37,8 @@ INSERT INTO Department1 (emp_id, dep_id, emp_add,emp_phone)
 VALUES (3, 141, 'Mathura', '9627106371');
 INSERT INTO Department1 (emp_id, dep_id, emp_add,emp_phone)
 VALUES (4, 151, 'Aligarh', '946365272');
+
+--Inner Join--
+select *from Employee1 as A
+inner join Department1 as B
+on A.emp_id = B.emp_id;
